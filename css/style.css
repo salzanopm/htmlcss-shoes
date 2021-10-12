@@ -1,0 +1,93 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    font-family: rubik;
+}
+
+.red {
+    background-color: #ff0000;
+}
+
+.green {
+    background-color: #008000;
+}
+
+.yellow {
+    background: #ffff00;
+}
+    
+.container-shoes {
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#differente {
+    background-image: url("../img/01.png");
+}  
+
+#tommy-hilfiger {
+    background-image: url("../img/02.png");
+}
+
+#converse {
+    background-image: url("../img/03.png");
+}
+
+h2 {
+    display: inline-block;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    font-size: 45px;
+    text-align: center;
+}
+
+.text-yellow {
+    color: #ffff00;
+}
+
+.text-green {
+    color: #008000;
+}
+
+.navigation-controls {
+    position: fixed;
+    top: 5%;
+    right: 5%;
+    z-index: 2;
+}
+
+a {
+    height: 40px;
+    width: 40px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: rubik;
+    margin: 20px;
+
+}
