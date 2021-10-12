@@ -12,6 +12,7 @@
     height: 100vh;
     position: relative;
     font-family: rubik;
+    
 }
 
 .red {
@@ -25,10 +26,15 @@
 .yellow {
     background: #ffff00;
 }
+
+.block {
     
+    
+}
+
 .container-shoes {
-    height: 500px;
-    width: 500px;
+    height: 50%;
+    width: 50%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -38,15 +44,15 @@
     background-size: contain;
 }
 
-#differente {
+#img-differente {
     background-image: url("../img/01.png");
 }  
 
-#tommy-hilfiger {
+#img-tommy-hilfiger {
     background-image: url("../img/02.png");
 }
 
-#converse {
+#img-converse {
     background-image: url("../img/03.png");
 }
 
